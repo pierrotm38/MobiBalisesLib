@@ -21,28 +21,14 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with MobiBalisesLib. If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
-package org.pedro.android;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+MobiBalisesLib is a set of java classes used by MobiBalises
+(http://www.mobibalises.net) to manage alarms for weather stations.
 
-/**
- * 
- * @author pedro.m
- */
-public interface JSONAble
-{
-  /**
-   * 
-   * @param json
-   * @throws JSONException
-   */
-  public void fromJSON(final JSONObject json) throws JSONException;
+When an alarm is raised, MobiBalises broadcasts it, so you can use
+MobiBalisesLib to create your own piece of software to intercetp those alarms
+and treate them the way you want (send SMS, email, or whatever...).
 
-  /**
-   * 
-   * @return
-   * @throws JSONException
-   */
-  public Object toJSON() throws JSONException;
-}
+Have fun.
+
+Pedro M
