@@ -25,8 +25,8 @@
 MobiBalisesLib is a set of java classes used by MobiBalises
 (http://www.mobibalises.net) to manage alarms for weather stations.
 
-When an alarm is raised, MobiBalises broadcasts it, so you can use
-MobiBalisesLib to create your own piece of software to intercetp those alarms
+When an alarm is raised, MobiBalises can broadcast it, so you can use
+MobiBalisesLib to create your own piece of software to intercept those alarms
 and treate them the way you want (send SMS, email, or whatever...).
 
 Have fun.
